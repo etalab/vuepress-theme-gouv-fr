@@ -1,6 +1,9 @@
 # VuePress theme Gouv Fr
 Un thème VuePress qui s'inspire de [template.data.gouv.fr](https://template.data.gouv.fr).
 
+## Démonstration
+https://bulletins.eig-forever.org utilise ce thème.
+
 ## Installation
 Ajouter le package à la liste des dépendances
 
