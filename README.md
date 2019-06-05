@@ -15,3 +15,14 @@ module.exports = {
   theme: 'gouv-fr'
 }
 ```
+
+## Contribuer
+Les contributions sont appréciées !
+
+Pas de panique, la quasi totalité des fichiers proviennent du thème de base de VuePress. Les seuls fichiers modifiés sont :
+
+- [styles/config.styl](styles/config.styl) : pour les couleurs
+- [styles/custom.styl](styles/custom.styl) : pour le surchargement des classes CSS existantes
+
+## Licence
+MIT
