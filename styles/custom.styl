@@ -47,12 +47,18 @@ h2
   border-right 0
 
 a.sidebar-link
-  padding .75rem 1rem .75rem 1.25rem !important
+  padding .75rem 1rem .75rem 1.25rem
+
+  .sidebar-group &
+    padding-left 1.25rem
 
   &.active
     background $grey
-    font-weight normal
 
+  .sidebar-sub-header &
+    color lighten($textColor, 30%)
+    &.active, &:hover
+      color $accentColor
 
 .sidebar-sub-headers
   a.sidebar-link
@@ -61,4 +67,3 @@ a.sidebar-link
 
     &.active
       background none
-      font-weight normal
