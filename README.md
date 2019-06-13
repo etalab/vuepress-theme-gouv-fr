@@ -5,27 +5,12 @@ Un thème VuePress qui s'inspire de [template.data.gouv.fr](https://template.dat
 https://vuepress-gouv-fr-demo.eig-forever.org utilise ce thème.
 
 ## Installation
-Ajouter le package à la liste des dépendances
 
-```bash
-yarn add vuepress-theme-gouv-fr
-```
-
-Dans votre fichier de configuration VuePress (`.vuepress/config.js`), indiquer le nom du thème :
-
-```js
-module.exports = {
-  theme: 'gouv-fr'
-}
-```
+La procédure d'installation est détaillée [en ligne](https://vuepress-gouv-fr-demo.eig-forever.org/installation.html).
 
 ## Contribuer
-Les contributions sont appréciées !
 
-Pas de panique, la quasi totalité des fichiers proviennent du thème de base de VuePress. Les seuls fichiers modifiés sont :
-
-- [styles/config.styl](styles/config.styl) : pour les couleurs
-- [styles/custom.styl](styles/custom.styl) : pour le surchargement des classes CSS existantes
+La procédure de contribution est détaillée [en ligne](https://vuepress-gouv-fr-demo.eig-forever.org/contribuer.html).
 
 ## Licence
 MIT
