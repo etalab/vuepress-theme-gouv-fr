@@ -19,7 +19,7 @@ h2
 
 .content
   background #fff
-  box-shadow 0 1px 2px rgba(201, 211, 223, .5)
+  box-shadow 0 1px 2px $shadow
   border 1px solid $grey
 
 .page-nav > .inner
@@ -67,3 +67,9 @@ a.sidebar-link
 
     &.active
       background none
+
+@media (max-width: $MQMobile)
+  .theme-container
+    &.sidebar-open
+      .sidebar
+        box-shadow 3px 0 10px -2px $shadow
