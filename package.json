@@ -1,6 +1,6 @@
 {
   "name": "vuepress-theme-gouv-fr",
-  "version": "0.6.1",
+  "version": "0.7.0",
   "description": "VuePress theme - Gouv Fr",
   "author": "Antoine Augusti <antoine.augusti@data.gouv.fr>",
   "license": "MIT",
