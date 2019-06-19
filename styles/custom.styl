@@ -56,6 +56,9 @@ h2
     border-bottom 1px solid $accentColor
     color $accentColor
 
+  .search-box input
+    border-color darken($grey, 20%)
+
 .content
   .full_page&
     max-width 100%
@@ -64,6 +67,7 @@ h2
 -----------------------------------------------------------------------------*/
 .sidebar
   border-right 0
+  box-shadow 2px 0 10px -2px $shadow
 
 a.sidebar-link
   padding .75rem 1rem .75rem 1.25rem
@@ -88,9 +92,5 @@ a.sidebar-link
       background none
 
 @media (max-width: $MQMobile)
-  .theme-container
-    &.sidebar-open
-      .sidebar
-        box-shadow 3px 0 10px -2px $shadow
   .sidebar .nav-links a:hover
     color $accentColor

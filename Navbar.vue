@@ -1,5 +1,8 @@
 <template>
-  <header class="navbar" :class="{'white' : $site.themeConfig.useMarianne}">
+  <header
+    class="navbar"
+    :class="{'white' : $site.themeConfig.useMarianne, 'white' : $site.themeConfig.variation === 'white' }"
+  >
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
     <router-link
