@@ -1,5 +1,5 @@
 <template>
-  <header class="navbar">
+  <header class="navbar" :class="{'white' : $site.themeConfig.useMarianne}">
     <SidebarButton @toggle-sidebar="$emit('toggle-sidebar')"/>
 
     <router-link
@@ -8,9 +8,9 @@
     >
       <img
         class="logo"
-        v-if="$site.themeConfig.logo"
-        :src="$withBase($site.themeConfig.logo)"
-        :alt="$siteTitle"
+        v-if="$site.themeConfig.useMarianne"
+        src="https://template.data.gouv.fr/images/logo-marianne.svg"
+        alt="Logo Marianne"
       >
       <span
         ref="siteName"
