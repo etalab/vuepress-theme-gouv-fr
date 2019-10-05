@@ -27,7 +27,7 @@ workflows:
   version: 2
   update_netlify:
     jobs:
-      - trigger_netlify
+      - trigger_netlify:
           filters:
              branches:
               only:
