@@ -4,18 +4,16 @@
 
 # VuePress theme Gouv Fr
 
-Un thème VuePress qui s'inspire de [template.data.gouv.fr](https://template.data.gouv.fr).
+Un thème VuePress qui s'inspire de [template.data.gouv.fr](https://template.data.gouv.fr) et hérite du thème par défaut de VuePress.
 
 ## Démonstration
-https://vuepress-gouv-fr-demo.eig-forever.org utilise ce thème.
+
+https://guides.etalab.studio utilise ce thème.
 
 ## Installation
 
-La procédure d'installation est détaillée [en ligne](https://vuepress-gouv-fr-demo.eig-forever.org/installation.html).
-
-## Contribuer
-
-La procédure de contribution est détaillée [en ligne](https://vuepress-gouv-fr-demo.eig-forever.org/contribuer.html).
+https://vuepress.vuejs.org/theme/using-a-theme.html.
 
 ## Licence
+
 MIT
