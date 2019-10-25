@@ -35,6 +35,23 @@ Le thème ne dispose pas d'éléments de configuration.
 ## Composants
 Les composants suivants sont disponibles.
 
+### Génération automatique du menu
+VuePress vous laisse la possibilité de définir vous-même votre menu, en précisant les différents groupes, les pages contenues et leur ordre.
+
+Si vous souhaitez afficher tous les dossiers de votre répertoire et tous les fichiers Markdown contenus dans ces dossiers (dans un ordre alphabétique), vous pouvez générer le menu automatiquement. Pour contrôler l'ordre des pages, vous pouvez préfixer vos pages par un numéro, par exemple `1_introduction.md`, `2_installation.md`.
+
+Dans votre fichier de configuration VuePress (probablement `.vuepress/config.js`), ajoutez ceci :
+```javascript
+const { getSidebar } = require('vuepress-theme-gouv-fr/sidebar.js')
+
+module.exports = {
+  // D'autres éléments de configuration
+  themeConfig: {
+    sidebar: getSidebar(),
+  }
+}
+```
+
 ### `CurrentGroupToc`
 Permet d'afficher dans la barre de navigation uniquement les éléments du groupe courant lorsque vous utilisez plusieurs groupes au sein de votre documentation.
 
