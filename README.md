@@ -33,7 +33,7 @@ Pour plus de détails, reportez-vous à [la documentation de VuePress](https://v
 Le thème ne dispose pas d'éléments de configuration.
 
 ## Composants
-Les composants suivants sont disponibles.
+Les composants suivants sont disponibles. Ils sont tous indépendants les uns des autres et leur utilisation est optionnelle.
 
 ### Génération automatique du menu
 VuePress vous laisse la possibilité de définir vous-même votre menu, en précisant les différents groupes, les pages contenues et leur ordre.
