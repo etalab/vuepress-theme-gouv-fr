@@ -21,7 +21,6 @@ export default {
           return title
         }
       }
-      return null
     }
   }
 }
