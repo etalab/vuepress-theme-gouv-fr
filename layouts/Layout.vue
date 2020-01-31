@@ -15,7 +15,7 @@ export default {
     ParentLayout,
   },
   computed: {
-    sidebarTitle: () => {
+    sidebarTitle () {
       for (let [group, title] of Object.entries(this.$site.themeConfig.sidebarTitles || {})) {
         if (this.$page.path.startsWith(group)) {
           return title
