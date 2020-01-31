@@ -27,8 +27,7 @@ export default {
 }
 </script>
 <style lang="stylus">
-.sidebar-title {
+.sidebar-title
   padding-left 1.25rem
   padding-bottom 0
-}
 </style>
