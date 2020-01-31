@@ -30,7 +30,21 @@ module.exports = {
 Pour plus de détails, reportez-vous à [la documentation de VuePress](https://vuepress.vuejs.org/theme/using-a-theme.html).
 
 ## Configuration
-Le thème ne dispose pas d'éléments de configuration.
+
+### Titres de sections
+Lorsque votre documentation comporte plusieurs dossiers, il est possible de faire apparaitre un titre de section lorsque vous vous trouvez dans un dossier.
+
+Dans votre fichier de configuration VuePress (probablement `.vuepress/config.js`), ajoutez ceci :
+```javascript
+module.exports = {
+  themeConfig: {
+    sidebarTitles: {
+        '/qualite/': "Préparer les données",
+        '/juridique/': "Identifier les données à ouvrir",
+    }
+  }
+}
+```
 
 ## Composants
 Les composants suivants sont disponibles. Ils sont tous indépendants les uns des autres et leur utilisation est optionnelle.
